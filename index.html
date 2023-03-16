@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<style>
+		body {
+			background-image: url("mars.gif");
+			background-position: center;
+			background-size: cover;
+			text-align: center;
+		}
+
+		#myCanvas {
+			margin-top: 30px;
+			border-width: 10px;
+			background-color: white;
+			border-style: ridge;
+		}
+
+		h1,
+		h4 {
+			color: white !important;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+	<title>Dirigindo o Rover em Marte</title>
+</head>
+
+<body onload="add()">
+
+	<h1>Dirigindo o Rover em Marte</h1>
+	<canvas id="myCanvas" width="800" height="600"></canvas>
+	<h4>
+		<b class="text-danger">NOTA:</b> PRESSIONE QUALQUER TECLA DIRECIONAL SE O ROVER NÃO ESTIVER VISÍVEL.
+	</h4>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
